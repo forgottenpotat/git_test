@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Flex</title>
+    <style>
+        * {
+            border: 3px solid rgb(51, 226, 80);
+            box-sizing: border-box;
+        }
+
+        .whole-container {
+            display: flex;
+            height: 95vh;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .edge-flex-container {
+            width: 100%;
+            border: 2px solid red;
+            flex: 1;
+            padding: 5px;
+            display: flex;
+            gap: 1em;
+        }
+
+        .edge-flex-child {
+            padding: 1em;
+            flex: 1 1 0%;
+            border: 2px solid yellow;
+            display: flex;
+            gap: 1em;
+        }
+
+        .edge-smaller-child {
+            flex: 1;
+            border: 5px solid black;
+        }
+
+        .mid-flex-container {
+            display: flex;
+            flex-direction: row;
+            flex: 2;
+            flex-wrap: wrap;
+        }
+
+        .mid-left-container {
+            flex: 1;
+            border: 2px solid blue;
+        }
+
+        .mid-right-container {
+            flex: 1;
+            border: 2px solid blue;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mid-topright-container {
+            flex: 1;
+            border: 2px solid brown;
+        }
+
+        .mid-botright-container {
+            flex: 1;
+            border: 2px solid rgb(23, 5, 5);
+        }
+
+        .edge-flex-child2 {
+            flex: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="whole-container">
+        <div class="edge-flex-container">
+            <div class="edge-flex-child"></div>
+            <div class="edge-flex-child">
+                <div class="edge-smaller-child"></div>
+                <div class="edge-smaller-child"></div>
+            </div>
+            <div class="edge-flex-child"></div>
+        </div>
+
+        <div class="mid-flex-container">
+            <div class="mid-left-container"></div>
+            <div class="mid-right-container">
+                <div class="mid-topright-container"></div>
+                <div class="mid-botright-container"></div>
+            </div>
+        </div>
+
+        <div class="edge-flex-container">
+            <div class="edge-flex-child2"></div>
+            <div class="edge-flex-child"></div>
+            <div class="edge-flex-child"></div>
+            <div class="edge-flex-child2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
