@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, arial;
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 1.5em;
+  }
+  li {
+    list-style-type: none;
+  }
+  .logo {
+    margin-right: auto;
+  }
+}
+
+nav,
+header,
+section {
+  padding: 0.2em 11em;
+}
+nav {
+  padding: 0.9em 11em;
+  .logo {
+    font-weight: 800;
+    font-size: 1.2em;
+  }
+  li {
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+}
+header {
+  padding: 6em 11em;
+}
+nav,
+header {
+  background-color: #1f2937;
+
+  h1,
+  li,
+  p {
+    color: white;
+  }
+}
+
+header {
+  display: flex;
+  gap: 2em;
+  h1 {
+    font-size: 2.6em;
+    font-weight: 900;
+  }
+  p {
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+  button {
+    width: 7rem;
+    height: 2rem;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 0.5em;
+    border: 0 transparent;
+  }
+}
+
+.random-info {
+  padding-bottom: 5em;
+  h3 {
+    font-size: 1.8em;
+    font-weight: 900;
+    text-align: center;
+    margin: 1em;
+  }
+  .div-container {
+    display: flex;
+    gap: 2.5em;
+    padding: 0 5em;
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6em;
+      .rounded-border {
+        height: 9em;
+        border: 0.22rem solid #3882f6;
+        border-radius: 0.8em;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 6em 17em;
+  p {
+    font-size: 1.8em;
+    font-weight: 300;
+    font-style: italic;
+  }
+  h3 {
+    text-align: right;
+    margin: 0.2em 2em;
+    font-size: 1.6em;
+  }
+}
+
+.signup-container {
+  background-color: #3882f6;
+  color: white;
+  margin: 5em 1em;
+  border-radius: 0.6em;
+  padding: 3em 8em;
+  display: flex;
+  align-items: center;
+  .text-content {
+    margin-right: auto;
+    font-size: 1.2em;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  button {
+    height: 2.5em;
+    width: 8em;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+  }
+  h3 {
+    font-size: 1.2em;
+  }
+}
+
+footer {
+  background-color: #1f2937;
+  height: 4em;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
