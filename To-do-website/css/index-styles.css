@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  ul {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    padding: 1rem 3rem;
+    .logo {
+      display: flex;
+      margin-right: auto;
+    }
+  }
+}
+
+header,
+section {
+  margin: 0.5rem 20rem;
+}

@@ -1,0 +1,13 @@
+<svg width="373" height="474" viewBox="0 0 373 474" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="104" y="5" width="165" height="74" rx="6" stroke="black" stroke-width="10"/>
+<path d="M327 15C352.405 15 373 35.5949 373 61V428L372.996 428.595C372.678 453.726 352.207 474 327 474H46L45.4053 473.996C20.2743 473.678 0 453.207 0 428V61C3.4203e-06 35.7934 20.2743 15.3223 45.4053 15.0039L46 15H99V30H46C28.8792 30 15 43.8792 15 61V428C15 445.121 28.8792 459 46 459H327C344.121 459 358 445.121 358 428V61C358 43.8792 344.121 30 327 30H274V15H327Z" fill="black"/>
+<path d="M324 46.0879C330.627 46.0879 336 51.4605 336 58.0879V429.998C336 436.625 330.627 441.998 324 441.998H49L48.6904 441.994C42.2062 441.83 37.0001 436.522 37 429.998V58.0879C37 51.564 42.2061 46.256 48.6904 46.0918L49 46.0879H99V61.0879H52V426.998H321V61.0879H274V46.0879H324Z" fill="black"/>
+<line x1="88" y1="137" x2="221" y2="137" stroke="black" stroke-width="22" stroke-linecap="round"/>
+<line x1="88" y1="214" x2="221" y2="214" stroke="black" stroke-width="22" stroke-linecap="round"/>
+<line x1="88" y1="291" x2="221" y2="291" stroke="black" stroke-width="22" stroke-linecap="round"/>
+<line x1="88" y1="368" x2="221" y2="368" stroke="black" stroke-width="22" stroke-linecap="round"/>
+<circle cx="274" cy="138" r="20" fill="black"/>
+<circle cx="274" cy="215" r="20" fill="black"/>
+<circle cx="274" cy="292" r="20" fill="black"/>
+<circle cx="274" cy="369" r="20" fill="black"/>
+</svg>
