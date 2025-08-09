@@ -12,7 +12,7 @@ nav {
   color: white;
   ul {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     list-style-type: none;
     padding: 1rem 3rem;
     padding-right: 5rem;
@@ -23,9 +23,8 @@ nav {
       margin-right: auto;
       letter-spacing: 0.5px;
       font-weight: 800;
+      align-items: center;
       img {
-        position: relative;
-        bottom: 3px;
         margin-right: 4px;
       }
     }
